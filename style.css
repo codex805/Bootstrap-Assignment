@@ -26,3 +26,24 @@ body{
     color: #8A47F6;
 }
 
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 10px;
+    grid-auto-flow: dense;
+}
+
+
+.grid img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.horzenta{
+    grid-column: auto / span 2;
+}
+
+.vertikal{
+    grid-row: auto / span 2;
+}
