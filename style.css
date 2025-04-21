@@ -100,6 +100,10 @@ body{
             width: 100%;
             height: auto;
         }
+
+        .responsive img{
+            width: 100%;
+        }
  
       }
 }
